@@ -35,7 +35,7 @@ class GBWidget(QWidget):
         """
         Callback function to update text when pushbutton is pressed
         """
-        print("Push button was pressed!")#added an exclaimation just to see the change.
+        print("Push button was pressed!")#added an exclaimation just to see the change.  This prints to a command window.
 
         # Get input text
         input_text = self.main_window.lineEdit.text()

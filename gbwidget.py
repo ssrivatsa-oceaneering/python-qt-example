@@ -1,4 +1,6 @@
 # This Python file uses the following encoding: utf-8
+#gb 1Aug2022.
+#Making some notes to see how Git works.  Sidd made some changes to the code to help us understand how widgets work between the HMI and the code.
 import os
 from pathlib import Path
 import sys
@@ -33,7 +35,7 @@ class GBWidget(QWidget):
         """
         Callback function to update text when pushbutton is pressed
         """
-        print("Push button was pressed")
+        print("Push button was pressed!")#added an exclaimation just to see the change.
 
         # Get input text
         input_text = self.main_window.lineEdit.text()
